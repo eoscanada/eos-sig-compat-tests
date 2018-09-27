@@ -1,0 +1,7 @@
+Tests from eos-js
+--------------------------
+Importing existing private key to wallet : 5JFhynQnFBYNTPDA9TiKeE7TmujNYaExcbZi9bsRUjhVxwZF4Mt
+Matching existing public key             : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with imported key
+Signature : SIG_K1_JzG2CeEiaPgzgvtzoStGYAk1xeW53MejJohubsBfiAUEGd2nPZ4siLWxTXR8QpqWTr7kpSgFaDKCSyGNBBqTwDGjuethGc
+Recovered key from signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj

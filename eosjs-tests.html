@@ -1,0 +1,34 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--
+  SRI Pinned from release notes hash https://github.com/EOSIO/eosjs-ecc/releases/tag/v4.0.4
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/eosjs-ecc@4.0.4/lib/eosjs-ecc.min.js"
+    integrity="sha512-dYFDmK/d9r3/NCp6toLtfkwOjSMRBaEzaGAx1tfRItC0nsI0hVLERk05iNBQR7uDNI7ludYhcBI4vUiFHdjsTQ=="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+    console.log("Tests from eos-js")
+    console.log("--------------------------")
+
+    // Generated with `openssl rand -hex 32`
+    const defaultMessage = "89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121";
+
+    // Generated with cleos wallet create_key
+    const privKeyToImport = "5JFhynQnFBYNTPDA9TiKeE7TmujNYaExcbZi9bsRUjhVxwZF4Mt";
+    const pubKeyToImport = "EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj";
+
+    console.log("Importing existing private key to wallet : " + privKeyToImport);
+    const pvt = eosjs_ecc.PrivateKey(privKeyToImport);
+    console.log("Matching existing public key             : " + eosjs_ecc.privateToPublic(pvt));
+
+    console.log("Signing message digest (" + defaultMessage + ") with imported key");
+    sig = eosjs_ecc.signHash(defaultMessage, pvt);
+    console.log("Signature : " + sig)
+
+    console.log("Recovered key from signature : " + eosjs_ecc.recoverHash(sig, defaultMessage));
+    </script>
+</body>
+</html>
