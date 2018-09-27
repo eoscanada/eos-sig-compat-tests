@@ -1,0 +1,20 @@
+Started KEOSD on address 127.0.0.1:4545
+Started KEOSD with PID 64432
+Creating KEOSD wallet named  inside of /tmp/eos-compat-tests/keosd/
+Fresh wallet passphrase: PW5KgRf1evz2KpGwJ3mWCKX2CBGCAePBz2y1dU3Bp21ir42HfBf3B
+------------------------------------
+Importing existing private key to wallet : 5JFhynQnFBYNTPDA9TiKeE7TmujNYaExcbZi9bsRUjhVxwZF4Mt
+Matching existing public key             : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+{}Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with imported key
+Signature : SIG_K1_KVp1bPmzswSvbcZCMENXbawKFVXPyYrUeJNZ9ChgWdhxLd5K8WtRmCtFY5cqVFgxjCZH8CwdNkxM3HBZ7EXeJmzcK78mHA
+------------------------------------
+Removing imported key from wallet
+
+------------------------------------
+Creating fresh key in the new wallet
+New pub key : EOS6kopDtc2YUG2WrQjVkfr54R3Wp7d988KgwyJygTAaddtxVak5P
+Exported fresh private key : 5JwCskieW2Vzqw8qaKyUVimSm46hKoLJyBKTW1cJLNXPeexXT2e
+Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with fresh key
+Signature : SIG_K1_K3qCpGUki5GhQFkiwkC9qcqk6xxFTsNF6z94FBihYjCqAvbgfQcoEXtCAKym8qnrQ6xjiHdWWAktq5KX7KR4uR5yMm8Vo6
+------------------------------------
+Exiting cleanly

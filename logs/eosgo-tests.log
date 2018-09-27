@@ -1,0 +1,14 @@
+EOS signature compatibility tests from eos-go
+-------------------------------
+Importing existing private key to wallet : 5JFhynQnFBYNTPDA9TiKeE7TmujNYaExcbZi9bsRUjhVxwZF4Mt
+Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with imported key
+Signature : SIG_K1_JzG2CeEiaPgzgvtzoStGYAk1xeW53MejJohubsBfiAUEGd2nPZ4siLWxTXR8QpqWTr7kpSgFaDKCSyGNBBqTwDGjuethGc
+Recovered key from signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+-------------------------------
+eos-go : Generating fresh keypair at 2018-09-27 17:28:51.125893858 -0400 EDT m=+0.021813196
+Public Key : EOS89VC1VytcCHo5bj53czXXkkFWDpn9TUQde4N7AckfJsY7Y6gJy
+Private Key: 5JuXs7Kztuvow8Lj5EqYRiEKneQanh5Gx6VP3LzMSDtfrNxtdRA
+Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with fresh key
+Signature : SIG_K1_JzG2CeEiaPgzgvtzoStGYAk1xeW53MejJohubsBfiAUEGd2nPZ4siLWxTXR8QpqWTr7kpSgFaDKCSyGNBBqTwDGjuethGc
+Recovered key from signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+-------------------------------
