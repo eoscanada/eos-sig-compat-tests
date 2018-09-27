@@ -52,7 +52,7 @@ func main() {
 	fmt.Printf("Public Key : %s\nPrivate Key: %s\n", freshKeypair.PublicKey(), freshKeypair)
 
 	fmt.Printf("Signing message digest (%s) with fresh key\n", defaultMessage)
-	sig, err = keyBag.Keys[0].Sign(digestBytes)
+	sig, err = freshKeypair.Sign(digestBytes)
 	if err != nil {
 		panic("Error signing")
 	}
