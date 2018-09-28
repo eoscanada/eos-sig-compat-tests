@@ -1,18 +1,43 @@
 EOS signature compatibility tests from eos-go
 -------------------------------
+=================================================================
 Importing existing private key to wallet : 5JFhynQnFBYNTPDA9TiKeE7TmujNYaExcbZi9bsRUjhVxwZF4Mt
-Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with imported key
+---------------------------------------------
+Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
 Signature : SIG_K1_JzG2CeEiaPgzgvtzoStGYAk1xeW53MejJohubsBfiAUEGd2nPZ4siLWxTXR8QpqWTr7kpSgFaDKCSyGNBBqTwDGjuethGc
-Recovered key from signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
--------------------------------
-eos-go : Generating fresh keypair at 2018-09-28 10:42:21.333845418 -0400 EDT m=+0.022574056
-Public Key : EOS6thpCnEDGuDAVLTbqHUjhkkMLHap7sczo4Z3cDJ8BjaoBqSXZ5
-Private Key: 5KCDXa4CTC9DB29iSLQA94TJGREYtkDhAyvFKGkeZafoLffTJoA
-Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with fresh key
-Signature : SIG_K1_JyMk7mGVsexyuPhYZt6sBSnJPiRgrj86vvngWp6pzVZDyCkoXXZiJtf72jyDV9enHsQGHd7igKWtUGSBhDGYJjXDzqSU6T
-Recovered key from signature : EOS6thpCnEDGuDAVLTbqHUjhkkMLHap7sczo4Z3cDJ8BjaoBqSXZ5
--------------------------------
--------------------------------
-KEOSD-generated Sig SIG_K1_KhAncPv4QcGwE2gTrwhPZyQLy23AoNTKPiuN1puiT1F2xrdz7zTWEFvTJnADGgAnrBHpe2YsRNQZJnhkKShCo1FRMfUec1, recovered same key as expected EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
-KEOSD-generated Sig SIG_K1_KhF1Vur6J9cNFTibbSXBKtkmBWmsCV5mNbPYws2En77AnV1ad3bpzWWp5U1rKkZ7oJRx29LBBLPVHnUsFN8AYxcGGLLzVC, recovered same key as expected EOS8DRz4tLoEPZ49hDZNdvra8aZTgKZpFEhGVnEqWmAF5TEfnwwnd
-KEOSD-generated Sig SIG_K1_KBttGR2KMmdht6SsugkLQnuNUyRbbFrMLqZG7AwpFtrBLnCN1jU4ZmMAAE6pfsgFmcYxxgMxDGjH9nWue6Ak9voaXQyV2z, recovered same key as expected EOS5vppWGhMUPZ7TvktEgXjeK7cfdnLnAgVK1KEAQfoeVfakAoYR4
+Recovered key from KEOSD signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+Matches? true
+---------------------------------------------
+Signing message digest (0000000000000000000000000000000000000000000000000000000000000000) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+Signature : SIG_K1_K6ZVdD1N8Ys5g8Z1T7wfAKDU8rsVozNRs7jQQkS5WeSvocGpFWtFLBytvBSLxvWJkvvCBcZpLXeQEWFqufaMmU5Ma8C6LX
+Recovered key from KEOSD signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+Matches? true
+---------------------------------------------
+Signing message digest (1111111111111111111111111111111111111111111111111111111111111111) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+Signature : SIG_K1_K5EFhD7yiwRbS4zbuJthpoEjzfcQvRm1PbV7wyXCcd1CACTHDMPc1XyzRKJbQbTJXmTfes8MUtYfGqzMV9Mrnwd82tqL3M
+Recovered key from KEOSD signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+Matches? true
+=================================================================
+Importing existing private key to wallet : 5Kk2STsBpo6UkY5Uw8BQ1YeFjp2BGLiBEsC5h4TYYiRDb7y5BTR
+---------------------------------------------
+Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_KgS6YwaWUccNaGNrNsSUVZZik2ANhUnPNJU1iuMNu6FzDpsgzrvxsp5b4xmkDh82hThJrKhD1BdZKYq9xkYhwz5KCkkA5P
+Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Matches? true
+---------------------------------------------
+Signing message digest (0000000000000000000000000000000000000000000000000000000000000000) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_Kjf3V9yawe88a8bWoiRVMAKdUkUgVWPM89QoePLhMgx3tq4W6haVbJ42gTGD4cH21ZBguJWaN3epN4D2Gav71XrSNYnVu8
+Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Matches? true
+---------------------------------------------
+Signing message digest (1111111111111111111111111111111111111111111111111111111111111111) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_K1gCRJvYW7q8K7euWsajCU4mcug98LVk9icNxkMhP3ogEFb9Qd56YrrYFzC33a9E9F2dRrsA4cTGg8t2BwGWqGCsDsrBUK
+Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Matches? true
+=================================================================
+Importing existing private key to wallet : 5HxQKWDznancXZXm7Gr2guadK7BhK9Zs8ejDhfA9oEBM89ZaAru
+---------------------------------------------
+Signing message digest (6cb75bc5a46a7fdb64b92efefca01ed7b060ab5e0d625226e8efbc0980c3ddc1) with EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
+Signature : SIG_K1_K8jadZ4WKECFBsTT9QvkMvbuzz9niLrzVPR2gPYU2AgKYgBFhU7YjQu9q2tAkPQU9Ah2VjiFaDmCBrxtWroPLi7scFe3iD
+Recovered key from KEOSD signature : EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
+Matches? true
