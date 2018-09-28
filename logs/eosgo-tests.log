@@ -5,10 +5,14 @@ Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d
 Signature : SIG_K1_JzG2CeEiaPgzgvtzoStGYAk1xeW53MejJohubsBfiAUEGd2nPZ4siLWxTXR8QpqWTr7kpSgFaDKCSyGNBBqTwDGjuethGc
 Recovered key from signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
 -------------------------------
-eos-go : Generating fresh keypair at 2018-09-27 17:59:45.973968412 -0400 EDT m=+0.020594868
-Public Key : EOS7yVQbXPNgkKTAXxZRtmdYdKMPrVkgPnNbvp7gWUBecDMXUyoxX
-Private Key: 5KDKUvkswhJ2Pw7yNxvuBorGVzxB8Kab4Jh3UgvfbHRxKQaxrhk
+eos-go : Generating fresh keypair at 2018-09-28 10:41:15.720668643 -0400 EDT m=+0.021483881
+Public Key : EOS5aDVp5uVA3c3W7LyjfhoZCEW3zC8mS3MAe84bXDPXByEcjJnjm
+Private Key: 5KNaudps7RHJa1oKLZ8j7UXppkFjDijCcnbtkPjDS4UBEUVsGCD
 Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with fresh key
-Signature : SIG_K1_KeF8c5VqqR2kHzzXmiYmqZBTKUCoytpnYSWBFKRmHVFyHWYpAN6BEt1CqqFEmcwNJLurQ51oncH2fD3K4jGmq4AH7J1MDU
-Recovered key from signature : EOS7yVQbXPNgkKTAXxZRtmdYdKMPrVkgPnNbvp7gWUBecDMXUyoxX
+Signature : SIG_K1_KApwHiVHEDrzB1Jws8t5trg1j3BJ5hynfjt32NuemZPWHwHKpmotMTVv5fCM1AdVgM6Yu2TYuvaBxS6xFqrGjwQ6SFbcAK
+Recovered key from signature : EOS5aDVp5uVA3c3W7LyjfhoZCEW3zC8mS3MAe84bXDPXByEcjJnjm
 -------------------------------
+-------------------------------
+Sig SIG_K1_KhAncPv4QcGwE2gTrwhPZyQLy23AoNTKPiuN1puiT1F2xrdz7zTWEFvTJnADGgAnrBHpe2YsRNQZJnhkKShCo1FRMfUec1, recovered same key as expected EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Sig SIG_K1_KhF1Vur6J9cNFTibbSXBKtkmBWmsCV5mNbPYws2En77AnV1ad3bpzWWp5U1rKkZ7oJRx29LBBLPVHnUsFN8AYxcGGLLzVC, recovered same key as expected EOS8DRz4tLoEPZ49hDZNdvra8aZTgKZpFEhGVnEqWmAF5TEfnwwnd
+Sig SIG_K1_KBttGR2KMmdht6SsugkLQnuNUyRbbFrMLqZG7AwpFtrBLnCN1jU4ZmMAAE6pfsgFmcYxxgMxDGjH9nWue6Ak9voaXQyV2z, recovered same key as expected EOS5vppWGhMUPZ7TvktEgXjeK7cfdnLnAgVK1KEAQfoeVfakAoYR4
