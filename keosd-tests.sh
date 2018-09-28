@@ -39,81 +39,60 @@ echo "Fresh wallet passphrase: $WALLET_PASS"
 # SIGNATURE=$(curl -s "http://$KEOSD_ADDRESS/v1/wallet/sign_digest" --data "[\"$DEFAULT_MESSAGE_DIGEST\",\"$NEW_PUB_KEY\"]" | tr -d '"')
 # echo "Signature : $SIGNATURE"
 
-#########################################################
-echo "#################################################################"
+importIntoKEOSD() {
+    echo "#################################################################"
+    echo 
 
-# Generated with cleos wallet create_key
+    PRIV_KEY=$1
+    EXPECTED_PUB=$2
+
+    echo "------------------------------------"
+    echo "Importing existing private key to wallet : $PRIV_KEY"
+    echo "Matching existing public key             : $EXPECTED_PUB"
+    curl -s "http://$KEOSD_ADDRESS/v1/wallet/import_key" --data "[\"default\",\"$PRIV_KEY\"]" 
+}
+
+signAndCheck() {
+    echo "------------------------------------"
+    MESSAGE_DIGEST=$1
+    EXPECTED_PUB=$2
+    echo "Signing message digest ($MESSAGE_DIGEST) with $EXPECTED_PUB"
+    SIGNATURE=$(curl -s "http://$KEOSD_ADDRESS/v1/wallet/sign_digest" --data "[\"$MESSAGE_DIGEST\",\"$EXPECTED_PUB\"]" | tr -d '"')
+    echo "Signature : $SIGNATURE"
+}
+
+
+#########################################################
+
 TOIMPORT_PRIV_KEY="5JFhynQnFBYNTPDA9TiKeE7TmujNYaExcbZi9bsRUjhVxwZF4Mt"
 TOIMPORT_PUB_KEY="EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj"
+importIntoKEOSD $TOIMPORT_PRIV_KEY $TOIMPORT_PUB_KEY
 
-echo "------------------------------------"
-echo "Importing existing private key to wallet : $TOIMPORT_PRIV_KEY"
-echo "Matching existing public key             : $TOIMPORT_PUB_KEY"
-curl -s "http://$KEOSD_ADDRESS/v1/wallet/import_key" --data "[\"default\",\"$TOIMPORT_PRIV_KEY\"]" 
-
-echo "------------------------------------"
-MESSAGE_DIGEST="89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121" # Generated with `openssl rand -hex 32`
-echo "Signing message digest ($MESSAGE_DIGEST) with $TOIMPORT_PUB_KEY"
-SIGNATURE=$(curl -s "http://$KEOSD_ADDRESS/v1/wallet/sign_digest" --data "[\"$MESSAGE_DIGEST\",\"$TOIMPORT_PUB_KEY\"]" | tr -d '"')
-echo "Signature : $SIGNATURE"
-
-echo "------------------------------------"
-MESSAGE_DIGEST="0000000000000000000000000000000000000000000000000000000000000000"
-echo "Signing message digest ($MESSAGE_DIGEST) with $TOIMPORT_PUB_KEY"
-SIGNATURE=$(curl -s "http://$KEOSD_ADDRESS/v1/wallet/sign_digest" --data "[\"$MESSAGE_DIGEST\",\"$TOIMPORT_PUB_KEY\"]" | tr -d '"')
-echo "Signature : $SIGNATURE"
-
-echo "------------------------------------"
-MESSAGE_DIGEST="1111111111111111111111111111111111111111111111111111111111111111"
-echo "Signing message digest ($MESSAGE_DIGEST) with $TOIMPORT_PUB_KEY"
-SIGNATURE=$(curl -s "http://$KEOSD_ADDRESS/v1/wallet/sign_digest" --data "[\"$MESSAGE_DIGEST\",\"$TOIMPORT_PUB_KEY\"]" | tr -d '"')
-echo "Signature : $SIGNATURE"
+signAndCheck "89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121" $TOIMPORT_PUB_KEY
+signAndCheck "0000000000000000000000000000000000000000000000000000000000000000" $TOIMPORT_PUB_KEY
+signAndCheck "1111111111111111111111111111111111111111111111111111111111111111" $TOIMPORT_PUB_KEY
 
 #########################################################
-echo "#################################################################"
 
-# Generated with cleos wallet create_key
 TOIMPORT_PRIV_KEY="5Kk2STsBpo6UkY5Uw8BQ1YeFjp2BGLiBEsC5h4TYYiRDb7y5BTR"
 TOIMPORT_PUB_KEY="EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H"
+importIntoKEOSD $TOIMPORT_PRIV_KEY $TOIMPORT_PUB_KEY
 
-echo "------------------------------------"
-echo "Importing existing private key to wallet : $TOIMPORT_PRIV_KEY"
-echo "Matching existing public key             : $TOIMPORT_PUB_KEY"
-curl -s "http://$KEOSD_ADDRESS/v1/wallet/import_key" --data "[\"default\",\"$TOIMPORT_PRIV_KEY\"]" 
-
-echo "------------------------------------"
-MESSAGE_DIGEST="89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121" # Generated with `openssl rand -hex 32`
-echo "Signing message digest ($MESSAGE_DIGEST) with $TOIMPORT_PUB_KEY"
-SIGNATURE=$(curl -s "http://$KEOSD_ADDRESS/v1/wallet/sign_digest" --data "[\"$MESSAGE_DIGEST\",\"$TOIMPORT_PUB_KEY\"]" | tr -d '"')
-echo "Signature : $SIGNATURE"
-
-echo "------------------------------------"
-MESSAGE_DIGEST="0000000000000000000000000000000000000000000000000000000000000000"
-echo "Signing message digest ($MESSAGE_DIGEST) with $TOIMPORT_PUB_KEY"
-SIGNATURE=$(curl -s "http://$KEOSD_ADDRESS/v1/wallet/sign_digest" --data "[\"$MESSAGE_DIGEST\",\"$TOIMPORT_PUB_KEY\"]" | tr -d '"')
-echo "Signature : $SIGNATURE"
-
-echo "------------------------------------"
-MESSAGE_DIGEST="1111111111111111111111111111111111111111111111111111111111111111"
-echo "Signing message digest ($MESSAGE_DIGEST) with $TOIMPORT_PUB_KEY"
-SIGNATURE=$(curl -s "http://$KEOSD_ADDRESS/v1/wallet/sign_digest" --data "[\"$MESSAGE_DIGEST\",\"$TOIMPORT_PUB_KEY\"]" | tr -d '"')
-echo "Signature : $SIGNATURE"
+signAndCheck "89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121" $TOIMPORT_PUB_KEY
+signAndCheck "0000000000000000000000000000000000000000000000000000000000000000" $TOIMPORT_PUB_KEY
+signAndCheck "1111111111111111111111111111111111111111111111111111111111111111" $TOIMPORT_PUB_KEY
+signAndCheck "2222222222222222222222222222222222222222222222222222222222222222" $TOIMPORT_PUB_KEY
+signAndCheck "3333333333333333333333333333333333333333333333333333333333333333" $TOIMPORT_PUB_KEY
+signAndCheck "4444444444444444444444444444444444444444444444444444444444444444" $TOIMPORT_PUB_KEY
+signAndCheck "5555555555555555555555555555555555555555555555555555555555555555" $TOIMPORT_PUB_KEY
+signAndCheck "BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC" $TOIMPORT_PUB_KEY
 
 #######################################################
-echo "#################################################################"
 
 # Generated with cleos wallet create_key
 TOIMPORT_PRIV_KEY="5HxQKWDznancXZXm7Gr2guadK7BhK9Zs8ejDhfA9oEBM89ZaAru"
 TOIMPORT_PUB_KEY="EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ"
+importIntoKEOSD $TOIMPORT_PRIV_KEY $TOIMPORT_PUB_KEY
 
-echo "------------------------------------"
-echo "Importing existing private key to wallet : $TOIMPORT_PRIV_KEY"
-echo "Matching existing public key             : $TOIMPORT_PUB_KEY"
-curl -s "http://$KEOSD_ADDRESS/v1/wallet/import_key" --data "[\"default\",\"$TOIMPORT_PRIV_KEY\"]" 
-
-echo "------------------------------------"
-MESSAGE_DIGEST="6cb75bc5a46a7fdb64b92efefca01ed7b060ab5e0d625226e8efbc0980c3ddc1" # Generated with `openssl rand -hex 32`
-echo "Signing message digest ($MESSAGE_DIGEST) with $TOIMPORT_PUB_KEY"
-SIGNATURE=$(curl -s "http://$KEOSD_ADDRESS/v1/wallet/sign_digest" --data "[\"$MESSAGE_DIGEST\",\"$TOIMPORT_PUB_KEY\"]" | tr -d '"')
-echo "Signature : $SIGNATURE"
+signAndCheck "6cb75bc5a46a7fdb64b92efefca01ed7b060ab5e0d625226e8efbc0980c3ddc1" $TOIMPORT_PUB_KEY
 

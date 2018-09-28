@@ -34,6 +34,31 @@ Signing message digest (11111111111111111111111111111111111111111111111111111111
 Signature : SIG_K1_K1gCRJvYW7q8K7euWsajCU4mcug98LVk9icNxkMhP3ogEFb9Qd56YrrYFzC33a9E9F2dRrsA4cTGg8t2BwGWqGCsDsrBUK
 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
 Matches? true
+---------------------------------------------
+Signing message digest (2222222222222222222222222222222222222222222222222222222222222222) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_KjkZpcePtdc7eFJwDbahNDiRNfSVe5tgdkScgmPrpxQ4eSewjsTtDbr2JgEuJhuNKjiXEkj9Bh2cc5C5edXfSckp4Bhgeh
+Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Matches? true
+---------------------------------------------
+Signing message digest (3333333333333333333333333333333333333333333333333333333333333333) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_KhpCaAfWSEZ1xSyjeztqsuVznzM6ssHPrF8meeuz7xfp2f7V8vzij3w3fvhmNtYDWfhdkfzcGuDiTaq3fuJRJYWLdefwTC
+Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Matches? true
+---------------------------------------------
+Signing message digest (4444444444444444444444444444444444444444444444444444444444444444) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_KcfUjpbdwY7tXJGo4MWBRivTrUbaeE1fCGfBeY7amxVpzSkBrALoL5iGxnhcXUuJr8HgUjkwyHEKtCrNsf6PJNYJ9YqTCT
+Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Matches? true
+---------------------------------------------
+Signing message digest (5555555555555555555555555555555555555555555555555555555555555555) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_JzUpR2ZtEMBoJapF1u1Jf5gPJP1MWcrygrmTL6NgjV8LDiuwrtdaGCF8wsdxcSCyF9dwdEcCKtt5hxvKgBgS4XMkANH3WW
+Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Matches? true
+---------------------------------------------
+Signing message digest (BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_Jzu79vUxDPgcQP52r2RuXKtQevmQKaeCTtfQUxCUShFWe1UxFJziWLe1QrLEbRqYi4gx6RsCsKPbghD4bVp7khRrnpnCpH
+Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Matches? true
 =================================================================
 Importing existing private key to wallet : 5HxQKWDznancXZXm7Gr2guadK7BhK9Zs8ejDhfA9oEBM89ZaAru
 ---------------------------------------------

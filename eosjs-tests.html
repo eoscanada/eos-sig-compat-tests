@@ -13,7 +13,6 @@
 
     function importKey(priv, pub) {
         console.log("====================================================")    
-        console.log("====================================================")    
         console.log("Importing existing private key to wallet : " + priv);
         const privObj = eosjs_ecc.PrivateKey(priv);
         console.log("Matching existing public key             : " + eosjs_ecc.privateToPublic(privObj));
@@ -46,6 +45,12 @@
     signAndCheck("89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121", pubKeyToImport, privObj, "SIG_K1_KhAncPv4QcGwE2gTrwhPZyQLy23AoNTKPiuN1puiT1F2xrdz7zTWEFvTJnADGgAnrBHpe2YsRNQZJnhkKShCo1FRMfUec1")
     signAndCheck("0000000000000000000000000000000000000000000000000000000000000000", pubKeyToImport, privObj, "SIG_K1_KZQ3LcuJ741hKzGVjDNUPfYYBB5v88EZURFeyD1g3mxSx3MxzFAX5panzaAUyUugoLFRCxSw18qFtomtA6RSd8tRiQtKgs")
     signAndCheck("1111111111111111111111111111111111111111111111111111111111111111", pubKeyToImport, privObj, "SIG_K1_KfHdgQjHWdHetVcjc32PemVMsvSBxLSf5dvchauFa87QaXBaxadJ64UULasknsXhJLQu98vzEEgU6WbqEqJNebPtuJ7NEP")
+    signAndCheck("2222222222222222222222222222222222222222222222222222222222222222", pubKeyToImport, privObj, "SIG_K1_Kf4omhweDa9fKDvR89qeVHGYfa2KccNdGvV7ng1uzVz7gERNLahRbGS5bZtWPdudUco7WApHXALTNZRVSvYknNoFKVAp8p")
+    signAndCheck("3333333333333333333333333333333333333333333333333333333333333333", pubKeyToImport, privObj, "SIG_K1_KbBD8esKxZJiBtX1hfHGSCiytoNccoU5zKEHEWtWBdriUGwsmcRWkL8Zm1R3Tq7Uj9X7PW6vypfateHNuDKR8Az4maHhHo")
+    signAndCheck("4444444444444444444444444444444444444444444444444444444444444444", pubKeyToImport, privObj, "SIG_K1_K8xFcoZKAvjCKZ5RGyVXKswhxwbztXjchMPRbk4vFc8jZaRpifMsDC57x6zjcPdmGzopsVLYmGu2EhfBzfqPBy3EB73KZq")
+    signAndCheck("5555555555555555555555555555555555555555555555555555555555555555", pubKeyToImport, privObj, "SIG_K1_JwZVdQSqqpXVgdsBK2XtMdU13RTKsKmP16YxckMvMagC3nKpfAMSaz7Bnk4vWFyASsh2FuJoqGH9zXGtvDgXJvJo1qu9hU")
+    signAndCheck("BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC", pubKeyToImport, privObj, "SIG_K1_Ka1FvtKxHQzY2yUsM3jDJ3epGzrbXtUwS8kZLNu5iWDjbi7besBdHFu8RoR8b5fcJsrnwqBepeppFHfFoRtN9PLwDkyn8X")
+
 
     privKeyToImport = "5HxQKWDznancXZXm7Gr2guadK7BhK9Zs8ejDhfA9oEBM89ZaAru";
     pubKeyToImport = "EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ";

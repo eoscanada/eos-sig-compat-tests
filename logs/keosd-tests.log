@@ -1,20 +1,56 @@
 Started KEOSD on address 127.0.0.1:4545
-Started KEOSD with PID 64432
+Started KEOSD with PID 79278
 Creating KEOSD wallet named  inside of /tmp/eos-compat-tests/keosd/
-Fresh wallet passphrase: PW5KgRf1evz2KpGwJ3mWCKX2CBGCAePBz2y1dU3Bp21ir42HfBf3B
+Fresh wallet passphrase: PW5Js1qTfmAxqgyiiEzWJmrexeLPhpaGTsLkHBAeUc2pC1RBSa9bu
+#################################################################
+
 ------------------------------------
 Importing existing private key to wallet : 5JFhynQnFBYNTPDA9TiKeE7TmujNYaExcbZi9bsRUjhVxwZF4Mt
 Matching existing public key             : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
-{}Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with imported key
+{}------------------------------------
+Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
 Signature : SIG_K1_KVp1bPmzswSvbcZCMENXbawKFVXPyYrUeJNZ9ChgWdhxLd5K8WtRmCtFY5cqVFgxjCZH8CwdNkxM3HBZ7EXeJmzcK78mHA
 ------------------------------------
-Removing imported key from wallet
+Signing message digest (0000000000000000000000000000000000000000000000000000000000000000) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+Signature : SIG_K1_KiDE7eMg8tHm2wnjJgxyXGtxgMX21hF6uXmCdaKHjp6dxjyweKRsNVKa8iV8h23a45rRP65VazY8R1cKsk89rK2ZzgjnJi
+------------------------------------
+Signing message digest (1111111111111111111111111111111111111111111111111111111111111111) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+Signature : SIG_K1_K7SZ7Kch5ubBioPd2GpLUCcQAdDJize252xgQ1kYrAwYibGo4qAZHWETdMXo4yanwa7CLzHLM8SCDi9Fga1FMJTXTQ1ztV
+#################################################################
 
 ------------------------------------
-Creating fresh key in the new wallet
-New pub key : EOS6kopDtc2YUG2WrQjVkfr54R3Wp7d988KgwyJygTAaddtxVak5P
-Exported fresh private key : 5JwCskieW2Vzqw8qaKyUVimSm46hKoLJyBKTW1cJLNXPeexXT2e
-Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with fresh key
-Signature : SIG_K1_K3qCpGUki5GhQFkiwkC9qcqk6xxFTsNF6z94FBihYjCqAvbgfQcoEXtCAKym8qnrQ6xjiHdWWAktq5KX7KR4uR5yMm8Vo6
+Importing existing private key to wallet : 5Kk2STsBpo6UkY5Uw8BQ1YeFjp2BGLiBEsC5h4TYYiRDb7y5BTR
+Matching existing public key             : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+{}------------------------------------
+Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_KhAncPv4QcGwE2gTrwhPZyQLy23AoNTKPiuN1puiT1F2xrdz7zTWEFvTJnADGgAnrBHpe2YsRNQZJnhkKShCo1FRMfUec1
 ------------------------------------
+Signing message digest (0000000000000000000000000000000000000000000000000000000000000000) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_KZQ3LcuJ741hKzGVjDNUPfYYBB5v88EZURFeyD1g3mxSx3MxzFAX5panzaAUyUugoLFRCxSw18qFtomtA6RSd8tRiQtKgs
+------------------------------------
+Signing message digest (1111111111111111111111111111111111111111111111111111111111111111) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_KfHdgQjHWdHetVcjc32PemVMsvSBxLSf5dvchauFa87QaXBaxadJ64UULasknsXhJLQu98vzEEgU6WbqEqJNebPtuJ7NEP
+------------------------------------
+Signing message digest (2222222222222222222222222222222222222222222222222222222222222222) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_Kf4omhweDa9fKDvR89qeVHGYfa2KccNdGvV7ng1uzVz7gERNLahRbGS5bZtWPdudUco7WApHXALTNZRVSvYknNoFKVAp8p
+------------------------------------
+Signing message digest (3333333333333333333333333333333333333333333333333333333333333333) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_KbBD8esKxZJiBtX1hfHGSCiytoNccoU5zKEHEWtWBdriUGwsmcRWkL8Zm1R3Tq7Uj9X7PW6vypfateHNuDKR8Az4maHhHo
+------------------------------------
+Signing message digest (4444444444444444444444444444444444444444444444444444444444444444) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_K8xFcoZKAvjCKZ5RGyVXKswhxwbztXjchMPRbk4vFc8jZaRpifMsDC57x6zjcPdmGzopsVLYmGu2EhfBzfqPBy3EB73KZq
+------------------------------------
+Signing message digest (5555555555555555555555555555555555555555555555555555555555555555) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_JwZVdQSqqpXVgdsBK2XtMdU13RTKsKmP16YxckMvMagC3nKpfAMSaz7Bnk4vWFyASsh2FuJoqGH9zXGtvDgXJvJo1qu9hU
+------------------------------------
+Signing message digest (BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+Signature : SIG_K1_Ka1FvtKxHQzY2yUsM3jDJ3epGzrbXtUwS8kZLNu5iWDjbi7besBdHFu8RoR8b5fcJsrnwqBepeppFHfFoRtN9PLwDkyn8X
+#################################################################
+
+------------------------------------
+Importing existing private key to wallet : 5HxQKWDznancXZXm7Gr2guadK7BhK9Zs8ejDhfA9oEBM89ZaAru
+Matching existing public key             : EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
+{}------------------------------------
+Signing message digest (6cb75bc5a46a7fdb64b92efefca01ed7b060ab5e0d625226e8efbc0980c3ddc1) with EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
+Signature : SIG_K1_K6jyndumSBa6P8tuKSNmsQrpZKTHZwW2FeZzEqs9sAZ23GXivhoZNGTrvvbsTmgsXmEmNeP1wL8vZUZWomb55Uz6MbHyD6
 Exiting cleanly

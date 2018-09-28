@@ -1,48 +1,70 @@
-eosjs-tests.html:34 Tests from eos-js
+Tests from eos-js
 eosjs-tests.html:15 ====================================================
-eosjs-tests.html:16 ====================================================
-eosjs-tests.html:17 Importing existing private key to wallet : 5JFhynQnFBYNTPDA9TiKeE7TmujNYaExcbZi9bsRUjhVxwZF4Mt
-eosjs-tests.html:19 Matching existing public key             : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
-eosjs-tests.html:24 ------------------
-eosjs-tests.html:25 Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
-eosjs-tests.html:27 Signature : SIG_K1_JzG2CeEiaPgzgvtzoStGYAk1xeW53MejJohubsBfiAUEGd2nPZ4siLWxTXR8QpqWTr7kpSgFaDKCSyGNBBqTwDGjuethGc
-eosjs-tests.html:30 Recovered key from KEOSD signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
-eosjs-tests.html:31 Assert key matches? true
-eosjs-tests.html:24 ------------------
-eosjs-tests.html:25 Signing message digest (0000000000000000000000000000000000000000000000000000000000000000) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
-eosjs-tests.html:27 Signature : SIG_K1_K6ZVdD1N8Ys5g8Z1T7wfAKDU8rsVozNRs7jQQkS5WeSvocGpFWtFLBytvBSLxvWJkvvCBcZpLXeQEWFqufaMmU5Ma8C6LX
-eosjs-tests.html:30 Recovered key from KEOSD signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
-eosjs-tests.html:31 Assert key matches? true
-eosjs-tests.html:24 ------------------
-eosjs-tests.html:25 Signing message digest (1111111111111111111111111111111111111111111111111111111111111111) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
-eosjs-tests.html:27 Signature : SIG_K1_K5EFhD7yiwRbS4zbuJthpoEjzfcQvRm1PbV7wyXCcd1CACTHDMPc1XyzRKJbQbTJXmTfes8MUtYfGqzMV9Mrnwd82tqL3M
-eosjs-tests.html:30 Recovered key from KEOSD signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
-eosjs-tests.html:31 Assert key matches? true
+eosjs-tests.html:16 Importing existing private key to wallet : 5JFhynQnFBYNTPDA9TiKeE7TmujNYaExcbZi9bsRUjhVxwZF4Mt
+eosjs-tests.html:18 Matching existing public key             : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+eosjs-tests.html:26 Signature : SIG_K1_JzG2CeEiaPgzgvtzoStGYAk1xeW53MejJohubsBfiAUEGd2nPZ4siLWxTXR8QpqWTr7kpSgFaDKCSyGNBBqTwDGjuethGc
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+eosjs-tests.html:30 Assert key matches? true
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (0000000000000000000000000000000000000000000000000000000000000000) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+eosjs-tests.html:26 Signature : SIG_K1_K6ZVdD1N8Ys5g8Z1T7wfAKDU8rsVozNRs7jQQkS5WeSvocGpFWtFLBytvBSLxvWJkvvCBcZpLXeQEWFqufaMmU5Ma8C6LX
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+eosjs-tests.html:30 Assert key matches? true
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (1111111111111111111111111111111111111111111111111111111111111111) with EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+eosjs-tests.html:26 Signature : SIG_K1_K5EFhD7yiwRbS4zbuJthpoEjzfcQvRm1PbV7wyXCcd1CACTHDMPc1XyzRKJbQbTJXmTfes8MUtYfGqzMV9Mrnwd82tqL3M
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5jSQLpKBHLaMtuzkftnYE6bCMA5Jxso8f22uZyKj6cDEp32eSj
+eosjs-tests.html:30 Assert key matches? true
 eosjs-tests.html:15 ====================================================
-eosjs-tests.html:16 ====================================================
-eosjs-tests.html:17 Importing existing private key to wallet : 5Kk2STsBpo6UkY5Uw8BQ1YeFjp2BGLiBEsC5h4TYYiRDb7y5BTR
-eosjs-tests.html:19 Matching existing public key             : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
-eosjs-tests.html:24 ------------------
-eosjs-tests.html:25 Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
-eosjs-tests.html:27 Signature : SIG_K1_KgS6YwaWUccNaGNrNsSUVZZik2ANhUnPNJU1iuMNu6FzDpsgzrvxsp5b4xmkDh82hThJrKhD1BdZKYq9xkYhwz5KCkkA5P
-eosjs-tests.html:30 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
-eosjs-tests.html:31 Assert key matches? true
-eosjs-tests.html:24 ------------------
-eosjs-tests.html:25 Signing message digest (0000000000000000000000000000000000000000000000000000000000000000) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
-eosjs-tests.html:27 Signature : SIG_K1_Kjf3V9yawe88a8bWoiRVMAKdUkUgVWPM89QoePLhMgx3tq4W6haVbJ42gTGD4cH21ZBguJWaN3epN4D2Gav71XrSNYnVu8
-eosjs-tests.html:30 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
-eosjs-tests.html:31 Assert key matches? true
-eosjs-tests.html:24 ------------------
-eosjs-tests.html:25 Signing message digest (1111111111111111111111111111111111111111111111111111111111111111) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
-eosjs-tests.html:27 Signature : SIG_K1_K1gCRJvYW7q8K7euWsajCU4mcug98LVk9icNxkMhP3ogEFb9Qd56YrrYFzC33a9E9F2dRrsA4cTGg8t2BwGWqGCsDsrBUK
-eosjs-tests.html:30 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
-eosjs-tests.html:31 Assert key matches? true
+eosjs-tests.html:16 Importing existing private key to wallet : 5Kk2STsBpo6UkY5Uw8BQ1YeFjp2BGLiBEsC5h4TYYiRDb7y5BTR
+eosjs-tests.html:18 Matching existing public key             : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (89529cb031c69eccc92f3e8492393a8688bd3d071d7346677b6ff59d314d5121) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:26 Signature : SIG_K1_KgS6YwaWUccNaGNrNsSUVZZik2ANhUnPNJU1iuMNu6FzDpsgzrvxsp5b4xmkDh82hThJrKhD1BdZKYq9xkYhwz5KCkkA5P
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:30 Assert key matches? true
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (0000000000000000000000000000000000000000000000000000000000000000) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:26 Signature : SIG_K1_Kjf3V9yawe88a8bWoiRVMAKdUkUgVWPM89QoePLhMgx3tq4W6haVbJ42gTGD4cH21ZBguJWaN3epN4D2Gav71XrSNYnVu8
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:30 Assert key matches? true
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (1111111111111111111111111111111111111111111111111111111111111111) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:26 Signature : SIG_K1_K1gCRJvYW7q8K7euWsajCU4mcug98LVk9icNxkMhP3ogEFb9Qd56YrrYFzC33a9E9F2dRrsA4cTGg8t2BwGWqGCsDsrBUK
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:30 Assert key matches? true
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (2222222222222222222222222222222222222222222222222222222222222222) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:26 Signature : SIG_K1_KjkZpcePtdc7eFJwDbahNDiRNfSVe5tgdkScgmPrpxQ4eSewjsTtDbr2JgEuJhuNKjiXEkj9Bh2cc5C5edXfSckp4Bhgeh
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:30 Assert key matches? true
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (3333333333333333333333333333333333333333333333333333333333333333) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:26 Signature : SIG_K1_KhpCaAfWSEZ1xSyjeztqsuVznzM6ssHPrF8meeuz7xfp2f7V8vzij3w3fvhmNtYDWfhdkfzcGuDiTaq3fuJRJYWLdefwTC
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:30 Assert key matches? true
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (4444444444444444444444444444444444444444444444444444444444444444) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:26 Signature : SIG_K1_KcfUjpbdwY7tXJGo4MWBRivTrUbaeE1fCGfBeY7amxVpzSkBrALoL5iGxnhcXUuJr8HgUjkwyHEKtCrNsf6PJNYJ9YqTCT
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:30 Assert key matches? true
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (5555555555555555555555555555555555555555555555555555555555555555) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:26 Signature : SIG_K1_JzUpR2ZtEMBoJapF1u1Jf5gPJP1MWcrygrmTL6NgjV8LDiuwrtdaGCF8wsdxcSCyF9dwdEcCKtt5hxvKgBgS4XMkANH3WW
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:30 Assert key matches? true
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC) with EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:26 Signature : SIG_K1_Jzu79vUxDPgcQP52r2RuXKtQevmQKaeCTtfQUxCUShFWe1UxFJziWLe1QrLEbRqYi4gx6RsCsKPbghD4bVp7khRrnpnCpH
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H
+eosjs-tests.html:30 Assert key matches? true
 eosjs-tests.html:15 ====================================================
-eosjs-tests.html:16 ====================================================
-eosjs-tests.html:17 Importing existing private key to wallet : 5HxQKWDznancXZXm7Gr2guadK7BhK9Zs8ejDhfA9oEBM89ZaAru
-eosjs-tests.html:19 Matching existing public key             : EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
-eosjs-tests.html:24 ------------------
-eosjs-tests.html:25 Signing message digest (6cb75bc5a46a7fdb64b92efefca01ed7b060ab5e0d625226e8efbc0980c3ddc1) with EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
-eosjs-tests.html:27 Signature : SIG_K1_K8jadZ4WKECFBsTT9QvkMvbuzz9niLrzVPR2gPYU2AgKYgBFhU7YjQu9q2tAkPQU9Ah2VjiFaDmCBrxtWroPLi7scFe3iD
-eosjs-tests.html:30 Recovered key from KEOSD signature : EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
-eosjs-tests.html:31 Assert key matches? true
+eosjs-tests.html:16 Importing existing private key to wallet : 5HxQKWDznancXZXm7Gr2guadK7BhK9Zs8ejDhfA9oEBM89ZaAru
+eosjs-tests.html:18 Matching existing public key             : EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
+eosjs-tests.html:23 ------------------
+eosjs-tests.html:24 Signing message digest (6cb75bc5a46a7fdb64b92efefca01ed7b060ab5e0d625226e8efbc0980c3ddc1) with EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
+eosjs-tests.html:26 Signature : SIG_K1_K8jadZ4WKECFBsTT9QvkMvbuzz9niLrzVPR2gPYU2AgKYgBFhU7YjQu9q2tAkPQU9Ah2VjiFaDmCBrxtWroPLi7scFe3iD
+eosjs-tests.html:29 Recovered key from KEOSD signature : EOS7dwvuZfiNdTbo3aamP8jgq8RD4kzauNkyiQVjxLtAhDHJm9joQ
+eosjs-tests.html:30 Assert key matches? true
