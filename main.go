@@ -81,7 +81,7 @@ func main() {
 	if pub.String() != "EOS5gWrScGTTMyieGGhFDAmrVtDCp3UYzwdE7VLoZQnFSiGcezE3H" {
 		panic("Unable to recover same pub key")
 	} else {
-		fmt.Printf("Sig %s, recovered same key as expected %s\n", sig, pub)
+		fmt.Printf("KEOSD-generated Sig %s, recovered same key as expected %s\n", sig, pub)
 	}
 
 	// ------------------------------------
@@ -99,7 +99,7 @@ func main() {
 	if pub.String() != "EOS8DRz4tLoEPZ49hDZNdvra8aZTgKZpFEhGVnEqWmAF5TEfnwwnd" {
 		panic("Unable to recover same pub key")
 	} else {
-		fmt.Printf("Sig %s, recovered same key as expected %s\n", sig, pub)
+		fmt.Printf("KEOSD-generated Sig %s, recovered same key as expected %s\n", sig, pub)
 	}
 
 	// ------------------------------------
@@ -117,7 +117,7 @@ func main() {
 	if pub.String() != "EOS5vppWGhMUPZ7TvktEgXjeK7cfdnLnAgVK1KEAQfoeVfakAoYR4" {
 		panic("Unable to recover same pub key")
 	} else {
-		fmt.Printf("Sig %s, recovered same key as expected %s\n", sig, pub)
+		fmt.Printf("KEOSD-generated Sig %s, recovered same key as expected %s\n", sig, pub)
 	}
 
 }
